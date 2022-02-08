@@ -1,10 +1,13 @@
 .work-principles {
-  padding-top: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   .secondary__title {
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+    @include font(null, 700, null, null, null);
+    text-align: center;
+    // font-weig
+    // text-transform: up
+    // margin-bottom;
   }
 }
 
@@ -12,18 +15,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 270px;
+  max-width: 450px;
   height: 120px;
   background-color: var(--sections-background);
   margin-bottom: 30px;
 }
 
-.work-principles__list {
-  display: flex;
-  margin-right: -30px;
-}
+// .work-principles__list {
+//   display: flex;
+//   margin-right: -30px;
+// }
 
-.work-principles__item {
-  width: 270px;
-  margin-right: 30px;
-}
+// .work-principles__item {
+//   width: 270px;
+//   margin-right: 30px;
+// }
