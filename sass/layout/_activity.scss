@@ -4,15 +4,18 @@
   .list {
     display: flex;
   }
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 .activity__wrap {
   position: relative;
 }
 .activity__wrap-text {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
   bottom: 0;
   right: 0;
   width: 100%;

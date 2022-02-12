@@ -24,10 +24,15 @@ ul {
 button {
   cursor: pointer;
   padding: 0;
+  outline: none;
+  border: none;
 }
 
 img {
   display: block;
+  width: 100%;
+  min-width: 100%;
+  height: auto;
 }
 
 .list {
