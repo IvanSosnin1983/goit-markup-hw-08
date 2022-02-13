@@ -3,11 +3,6 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  .section__title {
-    @include font(null, null, 28px, null, null);
-    margin-bottom: 30px;
-  }
-
   .secondary__title {
     @include font(null, null, 16px, 1.19, null);
 
